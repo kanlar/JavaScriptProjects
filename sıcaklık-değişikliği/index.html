@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sıcaklık Değişimi</title>
+    <link rel="stylesheet" href="kan.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hava Sıcaklığı Çevirici</h2>
+        <div class="tempDiv">
+           <p>Celsius : </p>
+           <input onchange="calculateTemp(event)" class='tempInput' type="number" name ='celsius' id='celsius' placeholder="Hava kaç derece?">
+        </div>
+        <div class="tempDiv">
+            <p>Fahrenheit : </p>
+            <input onchange="calculateTemp(event)" class='tempInput' type="number" name='fahrenheit' id='fahrenheit' placeholder="Hava kaç derece?">
+         </div>
+         <div class="tempDiv">
+            <label>Kelvin :</label>
+            <input onchange="calculateTemp(event)" class='tempInput'type="number" name='kelvin' id='kelvin' placeholder="Hava kaç derece?">
+         </div>
+    </div>
+
+    <script src="kan.js"></script>
+</body>
+</html>
